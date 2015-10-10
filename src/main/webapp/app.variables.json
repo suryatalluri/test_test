@@ -82,6 +82,7 @@
 		"_id": "wm-appInfo-getAppInfo-wm.DeviceVariable-1444134876543"
 	},
 	"HrdbDepartmentData": {
+		"name": "HrdbDepartmentData",
 		"type": "Department",
 		"isList": true,
 		"owner": "App",
@@ -263,10 +264,10 @@
 			"entityName": "Department",
 			"fullyQualifiedName": "com.hrdb.Department",
 			"tableType": "TABLE"
-		},
-		"name": "HrdbDepartmentData"
+		}
 	},
 	"HrdbEmployeeData": {
+		"name": "HrdbEmployeeData",
 		"type": "Employee",
 		"isList": true,
 		"owner": "App",
@@ -999,10 +1000,10 @@
 			"entityName": "Employee",
 			"fullyQualifiedName": "com.hrdb.Employee",
 			"tableType": "TABLE"
-		},
-		"name": "HrdbEmployeeData"
+		}
 	},
 	"HrdbUserData": {
+		"name": "HrdbUserData",
 		"type": "User",
 		"isList": true,
 		"owner": "App",
@@ -1115,10 +1116,10 @@
 			"fullyQualifiedName": "com.hrdb.User",
 			"tableType": "TABLE"
 		},
-		"bindCount": 0,
-		"name": "HrdbUserData"
+		"bindCount": 0
 	},
 	"HrdbVacationData": {
+		"name": "HrdbVacationData",
 		"type": "Vacation",
 		"isList": true,
 		"owner": "App",
@@ -1430,10 +1431,10 @@
 			"entityName": "Vacation",
 			"fullyQualifiedName": "com.hrdb.Vacation",
 			"tableType": "TABLE"
-		},
-		"name": "HrdbVacationData"
+		}
 	},
 	"MyTestDatabaseLoginData": {
+		"name": "MyTestDatabaseLoginData",
 		"type": "Login",
 		"isList": true,
 		"owner": "App",
@@ -1518,10 +1519,10 @@
 			"fullyQualifiedName": "com.test_test.mytestdatabase.Login",
 			"tableType": "TABLE"
 		},
-		"name": "MyTestDatabaseLoginData",
 		"bindCount": -1
 	},
 	"MyTestDatabaseTable1Data": {
+		"name": "MyTestDatabaseTable1Data",
 		"type": "Table1",
 		"isList": true,
 		"owner": "App",
@@ -1606,7 +1607,6 @@
 			"fullyQualifiedName": "com.test_test.mytestdatabase.Table1",
 			"tableType": "TABLE"
 		},
-		"name": "MyTestDatabaseTable1Data",
 		"bindCount": 1
 	}
 }

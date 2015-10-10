@@ -1,5 +1,6 @@
 {
 	"liveVariable1": {
+		"name": "liveVariable1",
 		"type": "Table1",
 		"isList": false,
 		"owner": "Page",
@@ -98,7 +99,6 @@
 			"fullyQualifiedName": "com.test_test.mytestdatabase.Table1",
 			"tableType": "TABLE"
 		},
-		"bindCount": 0,
-		"name": "liveVariable1"
+		"bindCount": 0
 	}
 }
