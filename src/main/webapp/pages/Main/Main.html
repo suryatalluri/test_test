@@ -1,7 +1,22 @@
 <wm-page data-ng-controller="MainPageController" name="page1">
     <wm-content name="content1">
         <wm-page-content columnwidth="12" name="page_content1">
-            <wm-audio controls="controls" audiopreload="none" name="audio1"></wm-audio>
+            <wm-liveform title="Details" name="liveform1" dataset="bind:Variables.MyTestDatabaseTable1Data.dataSet" horizontalalign="left" formdata="bind:Variables.MyTestDatabaseTable1Data" captionalign="right" captionposition="left">
+                <wm-layoutgrid name="layoutgrid15">
+                    <wm-gridrow show="hide" name="gridrow54">
+                        <wm-gridcolumn show="show" name="gridcolumn26" columnwidth="12">
+                            <wm-form-field display-name="Id" show="false" primary-key="true" generator="identity" key="id" type="integer" is-related="false" readonly="true" required="true" placeholder="Enter value" multiple="false" regexp=".*" step="1"></wm-form-field>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                    <wm-gridrow show="show" name="gridrow55">
+                        <wm-gridcolumn show="show" name="gridcolumn27" columnwidth="12">
+                            <wm-form-field display-name="Name" show="true" primary-key="false" generator="null" key="name" type="string" maxvalue="255" is-related="false" readonly="false" required="false" placeholder="Enter value" multiple="false" regexp=".*"></wm-form-field>
+                        </wm-gridcolumn>
+                    </wm-gridrow>
+                </wm-layoutgrid>
+                <wm-form-action key="cancel" display-name="Cancel" show="true" class="form-cancel btn-secondary" iconclass="glyphicon glyphicon-remove-circle" action="cancel()" type="button" update-mode="true"></wm-form-action>
+                <wm-form-action key="save" display-name="Save" show="true" class="form-save btn-success" iconclass="glyphicon glyphicon-save" type="Submit" update-mode="true"></wm-form-action>
+            </wm-liveform>
         </wm-page-content>
     </wm-content>
 </wm-page>
